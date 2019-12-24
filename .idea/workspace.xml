@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="334fd950-9aa9-47c9-855c-40716ae8eb4b" name="Default Changelist" comment="" />
+    <list default="true" id="334fd950-9aa9-47c9-855c-40716ae8eb4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PutApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,17 +19,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="495">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GetApI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PostApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/GetApI.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PutApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+            <state relative-caret-position="461">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,11 +70,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/GetApI.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/PostApi.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PutApi.java" />
       </list>
     </option>
   </component>
@@ -79,13 +112,14 @@
     <option name="width" value="1378" />
     <option name="height" value="707" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,13 +136,14 @@
               <item name="RestAPITest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RestAPITest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RestAPITest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RestAPITest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -117,7 +152,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576893913909" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577153468930" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RunDashboard">
@@ -132,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.PostApi.postmethod">
     <configuration name="GetApI.GetWeatherDetails" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAPITest" />
       <option name="PACKAGE_NAME" value="" />
@@ -145,8 +180,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostApi.postmethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAPITest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PostApi" />
+      <option name="METHOD_NAME" value="postmethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PostApi.postmethod" />
         <item itemvalue="TestNG.GetApI.GetWeatherDetails" />
       </list>
     </recent_temporary>
@@ -168,12 +216,15 @@
     <history-entry file="GetApI_GetWeatherDetails - 2019.12.19 at 20h 03m 43s.xml">
       <configuration name="GetApI.GetWeatherDetails" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PostApi_postmethod - 2019.12.23 at 20h 03m 00s.xml">
+      <configuration name="PostApi.postmethod" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -187,7 +238,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -202,17 +253,37 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/GetApI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="328">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GetApI.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="495">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PostApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PutApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
